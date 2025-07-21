@@ -1,6 +1,6 @@
 ---
 title: "Analyse SQL des films populaires avec Quarto et Python"
-author: "Gaël Penessot"
+author: "ANSHUL MAHAJAN"
 format:
   html:
     code-fold: true
