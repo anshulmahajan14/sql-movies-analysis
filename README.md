@@ -1,24 +1,24 @@
 # IMDB Movies SQL Analysis
 
-This project explores a dataset of 250 top-rated IMDB movies using SQL queries via DuckDB and Python, with results displayed as interactive tables using [itables](https://mwouts.github.io/itables/). The report is written in a [Quarto](https://quarto.org/) `.qmd` notebook.
+Explore and analyze the top 250 IMDB movies using SQL with DuckDB and Python. Results are presented in an interactive report using Quarto and [itables](https://mwouts.github.io/itables/).
 
 ## Features
 
-- Query and analyze movie data using SQL
-- Display results as interactive HTML tables
-- Powered by DuckDB, itables, and Quarto
+- SQL-based data analysis with DuckDB
+- Interactive tables using `itables`
+- Report built with Quarto (`.qmd`)
+- Lightweight and reproducible environment setup
 
 ## Installation
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/gpenessot/imdb-sql-analysis.git
+git clone https://github.com/anshulmahajan14/sql-movies-analysis
 cd imdb-sql-analysis
 ```
 
-2. Create a virtual environment and install dependencies using [`uv`](https://github.com/astral-sh/uv):
-
+2. Create a virtual environment and install dependencies using [`uv`]
 ```bash
 uv venv
 source .venv/bin/activate  # or .venv\Scripts\activate on Windows
@@ -43,8 +43,7 @@ quarto preview notebook.qmd
 
 The SQLite database `movies.db` should be placed inside the `data/` folder. It must contain a `movies` table with the following columns:
 
-- `title`, `director`, `year`, `rating`, `genres`, `runtime`, `country`, `language`, `imdb_score`, `imdb_votes`, `metacritic_score`
-
+title, director, year, rating, genres,runtime, country, language,imdb_score, imdb_votes, metacritic_score
 ## License
 
 MIT License
